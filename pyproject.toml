@@ -7,7 +7,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pydantic = "^2.9.2"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+ruff = "^0.7.2"
+mypy = "^1.13.0"
+mkdocs-material = "^9.5.44"
 
 [build-system]
 requires = ["poetry-core"]
